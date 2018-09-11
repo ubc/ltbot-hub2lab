@@ -1,0 +1,13 @@
+[Core]
+name = Hub2Lab
+module = hub2lab
+
+[Documentation]
+description = A Github to GitLab repo sync plugin
+
+[Python]
+version = 3
+
+[Errbot]
+max = 5.2.0
+
