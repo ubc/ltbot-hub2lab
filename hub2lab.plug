@@ -9,5 +9,5 @@ description = A Github to GitLab repo sync plugin
 version = 3
 
 [Errbot]
-max = 5.2.0
+max = 6.1.4
 
