@@ -100,7 +100,7 @@ class Hub2Lab(BotPlugin):
 
         # valid github signature
         if not self.verify_github_digest(
-                incoming_request.body.read(),
+                incoming_request.data,
                 self.config['mapping'][github_repo]['secret'],
                 incoming_request.headers.get('X-Hub-Signature')):
             return "Invalid signature"
